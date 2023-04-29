@@ -1,0 +1,21 @@
+import React from 'react'
+
+function Slider() {
+  return (
+    <div>
+    <section id="hero">
+  <div className="hero-container" data-aos="fade-in">
+    <img
+      src="img/policestation.jpg"
+      alt="Hero Imgs"
+      data-aos="zoom-out"
+      data-aos-delay={100}
+    />
+  </div>
+</section>
+
+    </div>
+  )
+}
+
+export default Slider
